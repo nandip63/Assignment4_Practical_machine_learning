@@ -3,11 +3,11 @@ practical machine learning assignment week4
 brief data description
 This data is about various observations for weight lifters made possible through wearable gadgets The objective is to use the data to predict whether the weight lifting is done the right way or the wrong way based on the model developed
 
-#Step 1: Read Training data to build the model
-train=read.csv("wtlift_train.csv",na.strings=c("NA","#DIV/0!", ""))
+#Step 1: Read Training data to build the model;
+train=read.csv("wtlift_train.csv",na.strings=c("NA","#DIV/0!", ""));
 
-#step 2: Remove columns having na
-train1=train[,colSums(is.na(train))==0]
+#step 2: Remove columns having na;
+train1=train[,colSums(is.na(train))==0];
 
 #step 3: remove the first 7 columns which are irrelevant for the analysis
 library(dplyr)
