@@ -3,7 +3,7 @@ practical machine learning assignment week4
 brief data description
 This data is about various observations for weight lifters made possible through wearable gadgets The objective is to use the data to predict whether the weight lifting is done the right way or the wrong way based on the model developed
 
-# Step 1: Read Training data to build the model;
+# step 1: Read Training data to build the model;
 
 train=read.csv("wtlift_train.csv",na.strings=c("NA","#DIV/0!", ""));
 
